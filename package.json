@@ -3,17 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.7.2",
     "@types/axios": "^0.14.0",
     "@types/lodash": "^4.14.119",
+    "@types/react": "^16.9.16",
     "@types/react-dnd": "^3.0.2",
     "@types/react-dnd-html5-backend": "^3.0.2",
+    "@types/react-dom": "^16.9.4",
     "@types/react-router": "^4.4.3",
-    "antd": "^3.11.6",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "g": "^2.0.1",
-    "npm": "^6.5.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "install": "^0.13.0",
+    "npm": "^6.13.3",
+    "parcel": "^1.12.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-router": "^4.3.1",
     "react-scripts-ts": "^4.0.8"
   },
@@ -21,14 +25,19 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "dev": "parcel watch src/paint.html -d painter --public-url=./"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.10",
+    "@types/jest": "^24.0.23",
     "@types/node": "^10.12.18",
-    "@types/react": "^16.7.18",
-    "@types/react-dom": "^16.0.11",
-    "jest": "^23.6.0",
-    "typescript": "^3.2.2"
-  }
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

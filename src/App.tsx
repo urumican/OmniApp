@@ -6,7 +6,6 @@ import HTML5Backend from 'react-dnd-html5-backend';
 
 class App extends React.Component {
   public render() {
-    
     return (
       <div className="App">
         <Container />
