@@ -11,7 +11,7 @@
     "@types/react-dnd-html5-backend": "^3.0.2",
     "@types/react-dom": "^16.9.4",
     "@types/react-router": "^4.4.3",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "g": "^2.0.1",
     "install": "^0.13.0",
     "npm": "^6.13.3",
